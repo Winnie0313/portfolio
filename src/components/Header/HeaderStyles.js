@@ -9,6 +9,7 @@ export const Container = styled.div`
   padding: 1rem;
   padding-top: 2rem;
   font-size: 2rem;
+  
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -22,7 +23,6 @@ export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
-  align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
@@ -113,13 +113,14 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
-color: white;
+color: black;
 border-radius: 50px;
   padding: 8px;
 &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
+    color: white;
     
   }
 `
