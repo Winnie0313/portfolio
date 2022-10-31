@@ -8,7 +8,7 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-  color: black;
+  font-size: 2rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -50,10 +50,10 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
   transition: 0.4s ease;
   &:hover {
-    color: #fff;
+    color: grey;
     opacity: 1;
     cursor: pointer;
   }
