@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { TiInfinity } from 'react-icons/ti';
+import { GiInfinity } from 'react-icons/gi';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -10,7 +10,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <NavLink style={{ display: "flex"}}>
-          <TiInfinity size="3rem" /> <span>Winnie</span>
+          <GiInfinity size="3rem" /> <span>WINNIE</span>
         </NavLink>
       </Link>
     </Div1>
