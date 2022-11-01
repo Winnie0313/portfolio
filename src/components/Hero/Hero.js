@@ -12,10 +12,10 @@ const Hero = (props) => (
         A Full-Stack Web Developer
       </SectionTitle>
       <SectionText>
-       🔢 With background in Mathematics <br/> 
-       🧠 Fast and lifelong Learner <br/> 
-       💡 Probelm Solver <br/> 
-       👩‍💻 Hard Worker <br/> 
+       🔢 With background in Mathematics  
+       🧠 Fast and lifelong Learner  
+       💡 Probelm Solver 
+       👩‍💻 Hard Worker  
        🌸 Nature Lover 
       </SectionText>
       <a href="/resume/WinnieLi_Resume.pdf" download target='_blank'>
