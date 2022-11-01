@@ -13,8 +13,8 @@ const Hero = (props) => (
         From 0 to ♾️, and Beyond!
       </SectionTitle>
       <SectionText>
-       🔢 With background in Mathematics  
-       🧠 Fast and lifelong Learner  
+       🔢 With Background in Mathematics  
+       🧠 Fast and Lifelong Learner <br /> 
        💡 Probelm Solver 
        👩‍💻 Hard Worker  
        🌸 Nature Lover 
