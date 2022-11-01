@@ -13,14 +13,16 @@ const Hero = (props) => (
       </SectionTitle>
       <SectionText>
        🔢 With background in Mathematics <br/> 
+       🧠 Fast and lifelong Learner <br/> 
        💡 Probelm Solver <br/> 
-       🧠 Faster Learner <br/> 
        👩‍💻 Hard Worker <br/> 
        🌸 Nature Lover 
       </SectionText>
-      <Button>
-        Download Resume
-      </Button>
+      <a href="resume/WinnieLi_Resume.pdf" download="WinnieLi_Resume" target='_blank'>
+        <Button>
+          Download Resume
+        </Button>
+      </a>
     </LeftSection>
 
   </Section>
