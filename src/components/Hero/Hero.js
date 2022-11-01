@@ -18,7 +18,7 @@ const Hero = (props) => (
        👩‍💻 Hard Worker <br/> 
        🌸 Nature Lover 
       </SectionText>
-      <a href="resume/WinnieLi_Resume.pdf" download="WinnieLi_Resume" target='_blank'>
+      <a href="/resume/WinnieLi_Resume.pdf" download target='_blank'>
         <Button>
           Download Resume
         </Button>
