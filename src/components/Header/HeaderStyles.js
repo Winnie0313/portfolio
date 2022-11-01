@@ -51,9 +51,11 @@ export const NavLink = styled.a`
   color: black;
   transition: 0.4s ease;
   &:hover {
-    color: grey;
     opacity: 1;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 2.1rem;
+    text-shadow: 1px 1px grey;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
