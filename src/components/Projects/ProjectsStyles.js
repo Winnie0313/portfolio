@@ -35,6 +35,8 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  color: #9cc9e3;
+  font-weight: bold;
 
 `;
 
@@ -107,6 +109,7 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: #d0bb57;
 font-size: 1.5rem;
+
 `
