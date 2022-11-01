@@ -8,7 +8,7 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hi, I am Winnie <br/> 
+        Hi, I'm Winnie <br/> 
         A Full-Stack Web Developer
       </SectionTitle>
       <SectionText>
@@ -24,7 +24,6 @@ const Hero = (props) => (
         </Button>
       </a>
     </LeftSection>
-
   </Section>
    
 );
