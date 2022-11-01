@@ -9,7 +9,7 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <NavLink style={{ display: "flex"}}>
+        <NavLink style={{ display: "flex", alignItems: "center", marginBottom: "20px"}}>
           <GiInfinity size="3rem" /> <span>WINNIE</span>
         </NavLink>
       </Link>

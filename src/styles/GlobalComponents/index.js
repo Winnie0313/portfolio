@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
+  color: black;
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
@@ -25,6 +26,7 @@ export const Section = styled.section`
 `
 
 export const SectionTitle = styled.h2`
+  color: black;
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
@@ -60,7 +62,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -103,7 +105,7 @@ export const SectionSubText = styled.p`
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
@@ -202,7 +204,7 @@ export const ButtonBack = styled.div`
 export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
-  color: #fff;
+  color: white;
   display: flex;
   position: absolute;
   top: 0;
