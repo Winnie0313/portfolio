@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
+  border-radius: 10px 10px 0px 0px;
   width:100%;
   height:100%;
   object-fit: cover;
@@ -71,7 +72,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 0 30px;
   color: black;
   font-style: 2rem;
   line-height: 24px;
