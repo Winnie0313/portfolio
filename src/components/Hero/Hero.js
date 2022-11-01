@@ -12,7 +12,11 @@ const Hero = (props) => (
         A Full-Stack Web Developer
       </SectionTitle>
       <SectionText>
-        With background in Mathematics  
+       🔢 With background in Mathematics <br/> 
+       💡 Probelm Solver <br/> 
+       🧠 Faster Learner <br/> 
+       👩‍💻 Hard Worker <br/> 
+       🌸 Nature Lover 
       </SectionText>
       <Button>
         Download Resume
