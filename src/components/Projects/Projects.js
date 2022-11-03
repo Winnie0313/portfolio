@@ -1,8 +1,10 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import Button from '../../styles/GlobalComponents/Button';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import Button from '../../styles/GlobalComponents/Button';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -25,6 +27,15 @@ const Projects = () => (
               ))}
             </TagList>
           </div>
+          <a href="/resume/WinnieLi_Resume.pdf" download target='_blank'>
+        <Button>
+          Download Resume
+        </Button>
+      </a>
+          <UtilityList>
+            <Button>Live</Button>
+            <Button>GitHub</Button>
+          </UtilityList>
         </BlogCard>
       ))
 
