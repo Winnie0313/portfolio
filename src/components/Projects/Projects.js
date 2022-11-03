@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import Button from '../../styles/GlobalComponents/Button';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
@@ -27,8 +26,8 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <Button style={{padding: 0}}>Live</Button>
-            <Button>GitHub</Button>
+            <ExternalLinks >Live</ExternalLinks>
+            <ExternalLinks>GitHub</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))
