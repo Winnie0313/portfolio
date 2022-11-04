@@ -10,9 +10,9 @@ const Technologies = () =>  (
     <SectionText>
       Proficient in developing web applications using modern font-end and back-end techonologies.
     </SectionText>
-    <list>
+    <List>
       <ListItem>
-        <DiFirebase size="3rem"/>
+        <DiReact size="3rem"/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
@@ -20,11 +20,32 @@ const Technologies = () =>  (
             Javascript <br />
             HTML <br />
             CSS <br />
+            jQuery
           </ListParagraph>
         </ListContainer>
-
       </ListItem>
-    </list>
+      <ListItem>
+        <DiFirebase size="3rem"/>
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Node.js <br />
+            Express <br />
+            Databases <br />
+            Ruby on Rails 
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem"/>
+        <ListContainer>
+          <ListTitle>UI/UX</ListTitle>
+          <ListParagraph>
+            Figma <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
 
   </Section>
 );
