@@ -7,6 +7,14 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider />
     <SectionTitle>Skills</SectionTitle>
+    <SectionText>
+      Proficient in developing web applications using modern font-end and back-end techonologies.
+    </SectionText>
+    <list>
+      <ListItem>
+        
+      </ListItem>
+    </list>
 
   </Section>
 );
