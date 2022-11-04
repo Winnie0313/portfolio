@@ -1,6 +1,15 @@
 
 import styled from 'styled-components'
 
+export const Container = styled.div`
+  direction: flex;
+  flex-direction: coloum;
+`
+
+export const EdContainer = styled.div`
+  
+`
+
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;
