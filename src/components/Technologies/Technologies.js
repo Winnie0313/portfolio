@@ -12,7 +12,17 @@ const Technologies = () =>  (
     </SectionText>
     <list>
       <ListItem>
-        
+        <DiFirebase size="3rem"/>
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            React.js <br />
+            Javascript <br />
+            HTML <br />
+            CSS <br />
+          </ListParagraph>
+        </ListContainer>
+
       </ListItem>
     </list>
 
