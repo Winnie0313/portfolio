@@ -67,6 +67,9 @@ export const ListTitle = styled.h4`
   letter-spacing: 0.02em;
   color: black;
   margin-bottom: 8px;
+  background: linear-gradient(121.57deg, black, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 @media ${props => props.theme.breakpoints.md}{
   font-size: 24px;
