@@ -1,18 +1,9 @@
 
 import styled from 'styled-components'
 
-export const Container = styled.div`
-  direction: flex;
-  flex-direction: coloum;
-`
-
-export const EdContainer = styled.div`
-  
-`
-
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: #0F1624;
+  background: white;
   padding: 0rem;
   list-style:none;
   display: flex;
@@ -73,17 +64,14 @@ export const CarouselItem = styled.div`
   }
 `
 
-export const CarouselItemTitle = styled.h4`
+export const CarouselItemTitle = styled.h6`
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.02em;
   display: flex;
-  /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 8px;
+  color: black;
+  background: white;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 20px;
