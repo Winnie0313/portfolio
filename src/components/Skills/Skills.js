@@ -1,9 +1,9 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend, DiJavascript, DiJavascript1 } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle, Icons } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, Icons } from './SkillsStyles';
 
-const Technologies = () =>  (
+const Skills = () =>  (
   <Section id="tech">
     <SectionDivider />
     <SectionTitle>Skills</SectionTitle>
@@ -50,4 +50,4 @@ const Technologies = () =>  (
   </Section>
 );
 
-export default Technologies;
+export default Skills;
