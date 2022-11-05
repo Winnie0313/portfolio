@@ -86,7 +86,7 @@ export const CarouselItemTitle = styled.h6`
 `
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
-  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+  -webkit-mask-image: linear-gradient(to right, grey, white);
   width: 100%;
 
   @media ${props => props.theme.breakpoints.sm} {
@@ -144,7 +144,7 @@ export const CarouselButton = styled.button`
 `
 
 export const CarouselButtonDot = styled.div`
-  background-color: white;
+  background-color: black;
   border-radius: 10px;
   margin: auto;
   width: 3px;
