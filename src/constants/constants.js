@@ -38,9 +38,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
+  { year: 2022, text: 'Diploma on Web Development Lighthouse Lab', },
+  { year: "2020-2022", text: 'Worked as High School Math Teacher at Surrey School District and Phoenix Magnet Academy', },
   { year: 2019, text: 'Founded JavaScript Mastery', },
   { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
 ];
