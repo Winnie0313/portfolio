@@ -93,7 +93,15 @@ export const CarouselItemImg = styled.svg`
     overflow: visible;
   }
 `
+export const CarouselItemContent = styled.div`
+  display: flex;
+  flex-direction: row;
+`
 
+export const CarouselItemContentImg = styled.div`
+  display: flex;
+  flex-direction: column;
+`
 export const CarouselItemText = styled.p`
   font-size: 14px;
   line-height: 22px;
