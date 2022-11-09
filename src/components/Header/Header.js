@@ -3,7 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { GiInfinity } from 'react-icons/gi';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Li } from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
@@ -15,21 +15,26 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
-      <li>
+      <Li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
-      </li>
-      <li>
+      </Li>
+      <Li>
         <Link href="#skills">
           <NavLink>Skills</NavLink>
         </Link>
-      </li>
-      <li>
+      </Li>
+      <Li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
-      </li>
+      </Li>
+      <Li>
+        <Link href="#contact">
+          <NavLink>Contact</NavLink>
+        </Link>
+      </Li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/Winnie0313">
