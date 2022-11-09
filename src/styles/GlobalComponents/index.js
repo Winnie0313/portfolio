@@ -93,11 +93,13 @@ export const SectionDivider = styled.div`
   @media ${(props) => props.theme.breakpoints.md} {
     width: 48px;
     height: 4px;
+    margin-top: 20px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 32px;
     height: 2px;
+    margin-top: 20px;
   }
 `
 export const SectionSubText = styled.p`
