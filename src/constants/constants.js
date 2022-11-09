@@ -38,7 +38,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2022, text: 'Diploma on Web Development Lighthouse Lab', },
+  { year: 2022, text: 'Diploma on Web Development - Lighthouse Lab', image: '/images/lighthouseLab.png', },
   { year: "2020-2022", text: 'Worked as High School Math Teacher at Surrey School District and Phoenix Magnet Academy', },
   { year: 2017, text: 'Web Developer Intern in LESSO', },
   { year: "2014-2018", text: 'B.Sc. Combined Major in Math and Science. CS Courses: CPSC 221-Basic Algorithms and Data Structures, CPSC 210-Software Construction, CPSC 121-Models of Computation, CPSC 110-Computation, Programs, and Programming ', },

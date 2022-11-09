@@ -98,7 +98,7 @@ export const CarouselItemContent = styled.div`
   flex-direction: row;
 `
 
-export const CarouselItemContentImg = styled.div`
+export const CarouselItemContentImg = styled.img`
   display: flex;
   flex-direction: column;
 `
