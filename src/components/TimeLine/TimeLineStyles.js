@@ -99,8 +99,9 @@ export const CarouselItemContent = styled.div`
 `
 
 export const CarouselItemContentImg = styled.img`
-  display: flex;
-  flex-direction: column;
+  width:100%;
+  height:100%;
+  padding: 10px 10px 0px 0px;
 `
 export const CarouselItemText = styled.p`
   font-size: 14px;
