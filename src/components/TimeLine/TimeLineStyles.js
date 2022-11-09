@@ -101,7 +101,7 @@ export const CarouselItemContent = styled.div`
 export const CarouselItemContentImg = styled.img`
   width:100%;
   height:100%;
-  padding: 10px 15px 0px 0px;
+  padding: 15px 15px 0px 0px;
 `
 export const CarouselItemText = styled.p`
   font-size: 14px;
