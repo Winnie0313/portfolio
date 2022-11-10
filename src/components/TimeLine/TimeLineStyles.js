@@ -103,6 +103,12 @@ export const CarouselItemContentImg = styled.img`
   height:100%;
   padding: 15px 15px 0px 0px;
 `
+
+export const CarouselItemPosition = styled.p`
+  font-weight: bold;
+  margin-top: 10px;
+  color: #696969;
+`
 export const CarouselItemText = styled.p`
   font-size: 14px;
   line-height: 22px;

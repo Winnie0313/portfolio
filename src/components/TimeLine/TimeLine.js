@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemContentImg, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemContentImg, CarouselItemTitle, CarouselMobileScrollNode, CarouselItemPosition } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
@@ -93,6 +93,7 @@ const Timeline = () => {
                     </defs>
                   </CarouselItemImg>
               </CarouselItemTitle>
+              <CarouselItemPosition>{item.position}</CarouselItemPosition>
 
               <CarouselItemText>{item.text}</CarouselItemText>
               <CarouselItemContentImg src={item.image} />
