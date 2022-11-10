@@ -16,10 +16,9 @@ const Contact = () => (
       </LinkColumn>
       <LinkColumn>
         <AiFillPhone size="4rem" />
-        <LinkItem href='mailto:li.winnie0313@gmail.com'>li.winnie0313@gmail.com</LinkItem>
+        <LinkItem href='tel:236-965-8957'>236-965-8957</LinkItem>
       </LinkColumn>
     </LinkList>
-
   </Section>
 );
 
