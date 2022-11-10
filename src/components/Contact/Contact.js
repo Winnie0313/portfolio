@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './ContactStyles';
+import { AiTwotoneMail } from 'react-icons/ai';
 
 
 
@@ -9,6 +10,12 @@ const Contact = () => (
   <Section id="contact">
     <SectionDivider />
     <SectionTitle>Contact</SectionTitle>
+    <LinkList>
+      <LinkColumn>
+        <AiTwotoneMail size="4rem" />
+
+      </LinkColumn>
+    </LinkList>
 
   </Section>
 );
