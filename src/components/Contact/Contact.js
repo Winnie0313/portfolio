@@ -13,6 +13,7 @@ const Contact = () => (
     <LinkList>
       <LinkColumn>
         <AiTwotoneMail size="4rem" />
+        <LinkItem href='mailto:li.winnie0313@gmail.com'>li.winnie0313@gmail.com</LinkItem>
 
       </LinkColumn>
     </LinkList>

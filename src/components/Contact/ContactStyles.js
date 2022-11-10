@@ -15,16 +15,17 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	color: black;
+  margin-top: 20px;
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
 	left: 0;
 
 	&:hover {
-		color: #fff;
+		color: #696969;
 		left: 6px;
 	}
 
