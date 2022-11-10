@@ -10,10 +10,10 @@ const data = [
   { number: 5000, text: 'Github Stars', }
 ];
 
-const Acomplishments = () => (
+const Contact = () => (
   <div>
-    Acomplishments
+    Contact
   </div>
 );
 
-export default Acomplishments;
+export default Contact;
