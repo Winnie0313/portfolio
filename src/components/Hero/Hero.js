@@ -10,7 +10,6 @@ const Hero = (props) => (
       <SectionTitle main center>
         Hi, I'm Winnie. <br/> 
         A Full-Stack Web Developer <br />
-        From 0 to ♾️, and Beyond!
       </SectionTitle>
       <SectionText>
        🔢 With Background in Mathematics  
