@@ -117,6 +117,9 @@ export const SocialContainer = styled.div`
 export const LinkList = styled.ul`
 	display: flex;
   flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
   
 
 	@media ${props => props.theme.breakpoints.lg} {
