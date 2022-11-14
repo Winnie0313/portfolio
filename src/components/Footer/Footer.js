@@ -7,7 +7,6 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <div>
-      Footer
     </div>
   );
 };
