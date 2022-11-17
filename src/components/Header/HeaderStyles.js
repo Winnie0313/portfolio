@@ -124,9 +124,9 @@ transition: 0.3s ease;
 color: black;
 border-radius: 50px;
   padding: 8px;
+  padding-top: 0;
 &:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
+    transform: scale(1.3);
     cursor: pointer;
     color: white;
     
