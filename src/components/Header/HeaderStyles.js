@@ -9,7 +9,7 @@ export const Container = styled.div`
   padding-left: 3rem;
   padding-top: 2rem;
   font-size: 2rem;
-  background-color: #a3c4f3;
+  background-color: #dee2ff;
   
 
   @media ${(props) => props.theme.breakpoints.sm} {
