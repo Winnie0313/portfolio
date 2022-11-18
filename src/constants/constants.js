@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['React', 'PSQL', 'Knex.js', 'Axios', 'Material UI'],
     live: 'https://google.com',
-    github: 'https://google.com',
+    github: 'https://github.com/Winnie0313/Waxwing',
     id: 1,
   },
   {
