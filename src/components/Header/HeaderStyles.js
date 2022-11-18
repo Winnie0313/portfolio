@@ -128,7 +128,7 @@ border-radius: 50px;
 &:hover {
     transform: scale(1.3);
     cursor: pointer;
-    color: white;
+    color: grey;
     
   }
 `
