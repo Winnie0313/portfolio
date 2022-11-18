@@ -23,7 +23,7 @@ export const projects = [
     image: '/images/3.jpg',
     tags: ['Express', 'Node', 'EJS', 'Ajax', 'jQuery'],
     live: 'https://google.com',
-    github: 'https://google.com',
+    github: 'https://github.com/Winnie0313/Wiki-Maps',
     id: 2,
   },
 
