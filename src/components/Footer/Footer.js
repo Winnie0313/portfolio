@@ -7,6 +7,20 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer = () => {
   return (
     <div>
+      <FooterWrapper>
+        <SocialIconsContainer>
+          <CompanyContainer>
+            <Slogan>make</Slogan>
+          </CompanyContainer>
+          <SocialIcons href="https://github.com/Winnie0313">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/winnieli03/">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+        </SocialIconsContainer>
+      </FooterWrapper>
+      
     </div>
   );
 };

@@ -1,11 +1,14 @@
 import styled from "styled-components"
 
-export const FooterWrapper = styled.section`
-	width: calc(100vw - 96px);
-  max-width: 1040px;
-  padding: 2rem 48px 40px;
-  margin: 1rem auto;
-  box-sizing: content-box;
+export const FooterWrapper = styled.div`
+	width: 100%;
+	padding: 1rem;
+
+	margin: 0;
+
+
+
+	background-color: #dee2ff;
 
 
   @media ${props => props.theme.breakpoints.sm} {
@@ -44,7 +47,6 @@ export const LinkItem = styled.a`
 `
 
 export const SocialIconsContainer = styled.div`
-max-width: 1040px;
 display: flex;
 justify-content: space-between;
 
