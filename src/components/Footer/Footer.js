@@ -12,12 +12,16 @@ const Footer = () => {
           <CompanyContainer>
             <Slogan>make</Slogan>
           </CompanyContainer>
-          <SocialIcons href="https://github.com/Winnie0313">
+          <SocialIconsContainer>
+          <SocialIcons style={{paddingTop: "8px"}} href="https://github.com/Winnie0313">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/winnieli03/">
+          <SocialIcons style={{paddingTop: "8px"}} href="https://www.linkedin.com/in/winnieli03/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
+
+          </SocialIconsContainer>
+          
         </SocialIconsContainer>
       </FooterWrapper>
       
