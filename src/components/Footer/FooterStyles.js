@@ -1,10 +1,14 @@
 import styled from "styled-components"
 
 export const FooterWrapper = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
 	width: 100%;
 	padding: 1rem;
-
 	margin: 0;
+
 
 
 
