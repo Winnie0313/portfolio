@@ -4,22 +4,11 @@ export const FooterWrapper = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-
 	width: 100%;
 	padding: 1rem;
 	margin: 0;
-
-
-
-
 	background-color: #dee2ff;
-
-
-  @media ${props => props.theme.breakpoints.sm} {
-    padding: 0 16px 48px;
-    width: calc(100vw - 32px);
-  }
-`
+	`
 
 export const LinkItem = styled.a`
 	font-size: 18px;
