@@ -42,12 +42,26 @@ export const Li = styled.li`
 `
 
 export const DropDownContainer = styled.div`
+  visibility: hidden;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    visibility: visible;
+  }
+`
+export const DropDownContent = styled.div`
+
+`
+export const DropDownContentLink = styled.a`
 
 `
 
 export const Button = styled.button`
   background-color: transparent;
   border: none;
+  transition: 0.3s ease;
+  color: black;
+  border-radius: 50px;
+  padding: 8px;
+  padding-top: 0;
   &:hover {
     transform: scale(1.3);
     cursor: pointer;
