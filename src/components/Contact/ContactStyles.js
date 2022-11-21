@@ -117,9 +117,7 @@ export const LinkList = styled.ul`
 	display: flex;
   flex-direction: row;
   margin-top: 50px;
-  margin-bottom: 100px;
-
-  
+  margin-bottom: 200px;
 
 	@media ${props => props.theme.breakpoints.lg} {
 		padding: 32px 0 16px;
