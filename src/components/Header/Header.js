@@ -2,11 +2,21 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { GiInfinity } from 'react-icons/gi';
+import { useState } from 'react/cjs/react.production.min';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Li } from './HeaderStyles';
 
-const Header = () =>  (
-  <Container>
+
+
+const Header = () =>  {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => {
+    setOpen(!open);
+  };
+
+  return (
+    <Container>
     <Div1>
       <Link href="/">
         <NavLink style={{ display: "flex", alignItems: "center", marginBottom: "20px"}}>
@@ -46,6 +56,9 @@ const Header = () =>  (
     </Div3>
 
   </Container>
-);
+
+  );
+  
+};
 
 export default Header;
