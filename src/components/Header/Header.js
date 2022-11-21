@@ -52,12 +52,14 @@ const Header = () =>  {
       <Button onClick={handleOpen}>
         <IoIosArrowDropdownCircle size="3rem"/>
       </Button>
-      <DropDownContent>
-        <DropDownContentLink href="#projects">Projects</DropDownContentLink>
-        <DropDownContentLink href="#skills">Skills</DropDownContentLink>
-        <DropDownContentLink href="#about">About</DropDownContentLink>
-        <DropDownContentLink href="#contact">Contact</DropDownContentLink>
-      </DropDownContent>
+      {open ? (
+        <DropDownContent>
+          <DropDownContentLink href="#projects">Projects</DropDownContentLink>
+          <DropDownContentLink href="#skills">Skills</DropDownContentLink>
+          <DropDownContentLink href="#about">About</DropDownContentLink>
+          <DropDownContentLink href="#contact">Contact</DropDownContentLink>
+        </DropDownContent>
+      ) : null}
     </DropDownContainer>
     <Div3>
       <SocialIcons href="https://github.com/Winnie0313">
