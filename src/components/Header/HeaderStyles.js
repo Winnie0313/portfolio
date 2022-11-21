@@ -39,6 +39,21 @@ export const Div2 = styled.div`
 
 export const Li = styled.li`
   padding-left: 20px;
+`
+
+export const DropDownContainer = styled.div`
+
+`
+
+export const Button = styled.button`
+  background-color: transparent;
+  border: none;
+  &:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    color: grey;
+    
+  }
 
 `
 export const Div3 = styled.div`

@@ -2,9 +2,11 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { GiInfinity } from 'react-icons/gi';
-import { useState } from 'react/cjs/react.production.min';
+import { IoIosArrowDropdownCircle, IoIosArrowDropdown } from 'react-icons/io';
+import { MdArrowDropDownCircle } from 'react-icons/md';
+import { useState } from 'react';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Li } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Li, DropDownContainer, Button} from './HeaderStyles';
 
 
 
@@ -46,6 +48,11 @@ const Header = () =>  {
         </Link>
       </Li>
     </Div2>
+    <DropDownContainer>
+      <Button onClick={handleOpen}>
+        <IoIosArrowDropdownCircle size="3rem"/>
+      </Button>
+    </DropDownContainer>
     <Div3>
       <SocialIcons href="https://github.com/Winnie0313">
         <AiFillGithub size="3rem" />
