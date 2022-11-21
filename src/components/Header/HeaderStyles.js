@@ -6,11 +6,7 @@ export const Container = styled.div`
   top: 0;
   overflow: hidden;
   z-index: 1;
-  box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8),
-    -12px 0 8px -4px rgba(31, 73, 125, 0.8);
-  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white,
-    12px 0 15px -4px rgba(31, 73, 125, 0.8),
-    -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
