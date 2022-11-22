@@ -5,7 +5,7 @@ import { GiInfinity } from 'react-icons/gi';
 import { IoIosArrowDropdownCircle, IoIosArrowDropdown } from 'react-icons/io';
 import { MdArrowDropDownCircle } from 'react-icons/md';
 import { useState } from 'react';
-
+import NavDropdown from 'react-bootstrap/Dropdown';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Li, DropDownContainer, Button, DropDownContent, DropDownContentLink } from './HeaderStyles';
 
 
@@ -49,17 +49,7 @@ const Header = () =>  {
       </Li>
     </Div2>
     <DropDownContainer>
-      <Button onClick={handleOpen}>
-        <IoIosArrowDropdownCircle size="3rem"/>
-      </Button>
-      {open ? (
-        <DropDownContent>
-          <DropDownContentLink href="#projects">Projects</DropDownContentLink>
-          <DropDownContentLink href="#skills">Skills</DropDownContentLink>
-          <DropDownContentLink href="#about">About</DropDownContentLink>
-          <DropDownContentLink href="#contact">Contact</DropDownContentLink>
-        </DropDownContent>
-      ) : null}
+  
     </DropDownContainer>
     <Div3>
       <SocialIcons href="https://github.com/Winnie0313">
