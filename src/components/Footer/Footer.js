@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div>
       <FooterWrapper>
-          <SocialIcons style={{paddingTop: "8px"}} href="https://github.com/Winnie0313">
+          <SocialIcons style={{paddingTop: "8px", paddingRight: "50px"}} href="https://github.com/Winnie0313">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons style={{paddingTop: "8px"}} href="https://www.linkedin.com/in/winnieli03/">
