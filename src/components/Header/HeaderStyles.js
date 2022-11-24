@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   position: fixed;
   top: 0;
-  overflow: hidden;
   z-index: 1;
 
   display: grid;
@@ -42,17 +41,17 @@ export const Li = styled.li`
 `
 
 export const DropDownContainer = styled.div`
-  visibility: hidden;
+  display: none;
   @media ${(props) => props.theme.breakpoints.sm} {
-    
-    visibility: visible;
+    position: relative;
     float: none;
     display: block;
     text-align: left
   }
 `
 export const DropDownContent = styled.div`
-position: relative;
+position: absolute;
+display: block;
 background-color: #f9f9f9;
 min-width: 160px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
