@@ -48,7 +48,7 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Two-year experience in web development with background in Mathematics.
+      Two years of experience in web development with background in Mathematics.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
