@@ -2,10 +2,11 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { GiInfinity } from 'react-icons/gi';
-import { IoIosArrowDropdownCircle, IoIosArrowDropdown } from 'react-icons/io';
+import { IoIosArrowDropdownCircle, IoMdArrowDropdown } from 'react-icons/io';
+import { CgDetailsMore } from 'react-icons/cg';
 import { MdArrowDropDownCircle } from 'react-icons/md';
 import { useState } from 'react';
-import NavDropdown from 'react-bootstrap/Dropdown';
+import Dropdown from 'react-bootstrap/Dropdown';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Li, DropDownContainer, Button, DropDownContent, DropDownContentLink } from './HeaderStyles';
 
 
@@ -49,8 +50,17 @@ const Header = () =>  {
       </Li>
     </Div2>
     <DropDownContainer>
-      
-  
+      <Button style={{paddingTop: "5px"}} onClick={handleOpen}>
+        <CgDetailsMore size="3rem"/>
+      </Button>
+      {open ? (
+        <DropDownContent>
+          <DropDownContentLink href="#projects">Projects</DropDownContentLink>
+          <DropDownContentLink href="#skills">Skills</DropDownContentLink>
+          <DropDownContentLink href="#about">About</DropDownContentLink>
+          <DropDownContentLink href="#contact">Contact</DropDownContentLink>
+        </DropDownContent>
+      ) : null}
     </DropDownContainer>
     <Div3>
       <SocialIcons href="https://github.com/Winnie0313">

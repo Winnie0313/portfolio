@@ -44,17 +44,35 @@ export const Li = styled.li`
 export const DropDownContainer = styled.div`
   visibility: hidden;
   @media ${(props) => props.theme.breakpoints.sm} {
+    
     visibility: visible;
+    float: none;
+    display: block;
+    text-align: left
   }
 `
 export const DropDownContent = styled.div`
+position: relative;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
 
 `
 export const DropDownContentLink = styled.a`
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+&:hover {
+  background-color: #ddd;
   color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+  
+}
 
 `
 
