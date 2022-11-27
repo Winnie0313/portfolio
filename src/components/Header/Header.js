@@ -5,7 +5,7 @@ import { GiInfinity } from 'react-icons/gi';
 import { IoIosArrowDropdownCircle, IoMdArrowDropdown } from 'react-icons/io';
 import { CgDetailsMore } from 'react-icons/cg';
 import { MdArrowDropDownCircle } from 'react-icons/md';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Li, DropDownContainer, Button, DropDownContent, DropDownContentLink } from './HeaderStyles';
 
@@ -14,9 +14,26 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Li, DropDownContaine
 const Header = () =>  {
   const [open, setOpen] = useState(false);
 
+  const btnRef = useRef();
+
   const handleOpen = () => {
     setOpen(!open);
   };
+
+  // close dropdown menu when clik anywhere outside the dropdowm button
+  useEffect(() => {
+    const closeDropdown = e => {
+      console.log(e);
+      if (e.path[2] !== btnRef.current) {
+        setOpen(false);
+      }
+    };
+
+    document.body.addEventListener('click', closeDropdown);
+
+    return () => document.body.removeEventListener('click', closeDropdown);
+
+  }, []);
 
   return (
     <Container>
@@ -50,7 +67,7 @@ const Header = () =>  {
       </Li>
     </Div2>
     <DropDownContainer>
-      <Button style={{paddingTop: "5px"}} onClick={handleOpen}>
+      <Button ref={btnRef} style={{paddingTop: "5px"}} onClick={handleOpen}>
         <CgDetailsMore size="3rem"/>
       </Button>
       {open ? (

@@ -56,6 +56,8 @@ background-color: #dee2ff;
 min-width: 160px;
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 1;
+
+
 }
 
 
@@ -68,7 +70,7 @@ text-decoration: none;
 display: block;
 text-align: left;
 &:hover {
-  background-color: #ddd;
+  background-color: #F0F0F0;
   color: black;
   
 }
