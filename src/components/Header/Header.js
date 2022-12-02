@@ -30,9 +30,9 @@ const Header = () =>  {
       }
     };
 
-    document.addEventListener('mousedown', closeDropdown);
+    document.body.addEventListener('click', closeDropdown);
 
-    return () => document.removeEventListener('mousedown', closeDropdown);
+    return () => document.body.removeEventListener('click', closeDropdown);
 
   }, []);
 
