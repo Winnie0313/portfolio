@@ -24,14 +24,15 @@ const Header = () =>  {
   useEffect(() => {
     const closeDropdown = e => {
       console.log(e);
-      if (e.path[2] !== btnRef.current) {
+      if (!btnRef.current.contains(e.target)) {
         setOpen(false);
+        console.log(btnRef.current)
       }
     };
 
-    document.body.addEventListener('click', closeDropdown);
+    document.addEventListener('mousedown', closeDropdown);
 
-    return () => document.body.removeEventListener('click', closeDropdown);
+    return () => document.removeEventListener('mousedown', closeDropdown);
 
   }, []);
 
