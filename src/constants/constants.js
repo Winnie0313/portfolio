@@ -18,15 +18,23 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Portfolio Website',
-    description: "Single-page website that displays my projects, skills and experience.",
+    title: 'Jungle E-commerce',
+    description: "A mini e-commerce application built with Ruby and Rails 6.1 that allows users to shop plants and admin to manage products.",
     image: '/images/3.png',
     tags: ['React', 'Next.js', 'Styled Components'],
     live: 'https://google.com',
     github: 'https://github.com/Winnie0313/portfolio',
     id: 2,
   },
-
+  {
+    title: 'Portfolio Website',
+    description: "Single-page website that displays my projects, skills and experience.",
+    image: '/images/4.png',
+    tags: ['React', 'Next.js', 'Styled Components'],
+    live: 'https://google.com',
+    github: 'https://github.com/Winnie0313/portfolio',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
