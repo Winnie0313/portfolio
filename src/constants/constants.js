@@ -23,7 +23,7 @@ export const projects = [
     image: '/images/3.png',
     tags: ['React', 'Next.js', 'Styled Components'],
     live: 'https://google.com',
-    github: 'https://github.com/Winnie0313/portfolio',
+    github: 'https://github.com/Winnie0313/jungle-rails',
     id: 2,
   },
   {
