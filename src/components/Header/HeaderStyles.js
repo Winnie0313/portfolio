@@ -14,8 +14,11 @@ export const Container = styled.div`
   font-size: 2rem;
   background-color: #dee2ff;
   position: sticky;
-  
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding-left: 0.5rem;
   }
+  
+  
 `;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
