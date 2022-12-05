@@ -44,9 +44,9 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
+    <Section id="experience">
       <SectionDivider />
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>Experience</SectionTitle>
       <SectionText>
       Full-Stack Web Developer transitioning from STEM Education with background in Mathematics and Computer Science.
       </SectionText>

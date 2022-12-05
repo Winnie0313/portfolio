@@ -57,8 +57,8 @@ const Header = () =>  {
         </Link>
       </Li>
       <Li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#experience">
+          <NavLink>Experience</NavLink>
         </Link>
       </Li>
       <Li>
@@ -75,7 +75,7 @@ const Header = () =>  {
         <DropDownContent>
           <DropDownContentLink href="#projects">Projects</DropDownContentLink>
           <DropDownContentLink href="#skills">Skills</DropDownContentLink>
-          <DropDownContentLink href="#about">About</DropDownContentLink>
+          <DropDownContentLink href="#experience">Experience</DropDownContentLink>
           <DropDownContentLink href="#contact">Contact</DropDownContentLink>
         </DropDownContent>
       ) : null}
