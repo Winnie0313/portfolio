@@ -24,8 +24,6 @@ export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
-
-  }
 `;
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;

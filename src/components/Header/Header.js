@@ -39,7 +39,7 @@ const Header = () =>  {
   return (
     <Container>
     <Div1>
-      <Link href="/">
+      <Link href="#home">
         <NavLink style={{ display: "flex", alignItems: "center"}}>
           <GiInfinity size="3rem" /> <span>WINNIE</span>
         </NavLink>
@@ -68,7 +68,7 @@ const Header = () =>  {
       </Li>
     </Div2>
     <DropDownContainer>
-      <Button ref={btnRef} style={{paddingTop: "5px"}} onClick={handleOpen}>
+      <Button ref={btnRef} style={{display: "flex", alignItems: "center", paddingTop: "5px"}} onClick={handleOpen}>
         <CgDetailsMore size="3rem"/>
       </Button>
       {open ? (
