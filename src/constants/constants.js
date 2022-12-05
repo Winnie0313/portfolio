@@ -38,8 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
+  { year: "2022-Present", position: 'Software Development Intern at Gao Tek Inc', text: 'Work with data structures, and analyze software for vulnerabilities. Research and write technical documentation.', image: '/images/lighthouseLab.png', },
   { year: 2022, position: 'Diploma on Web Development', text: 'at Lighthouse Lab', image: '/images/lighthouseLab.png', },
   { year: "2020-2022", position: 'High School Math Teacher', text: 'at Surrey School District and Phoenix Magnet Academy', image: '/images/surreySchools.png', },
-  { year: 2017, position: 'Web Developer Intern at LESSO', text: 'Developed and maintained the eCommerce platform for the company', image: '/images/lesso.png', },
+  { year: 2017, position: 'Web Development Intern at LESSO', text: 'Developed and maintained the eCommerce platform for the company', image: '/images/lesso.png', },
   { year: "2014-2018", position: 'B.Sc. Combined Major in Math and Science at UBC', text: 'CS Courses: CPSC 221-Basic Algorithms and Data Structures, CPSC 210-Software Construction, CPSC 121-Models of Computation, CPSC 110-Computation, Programs, and Programming ', image: '/images/ubc.png', },
 ];
