@@ -13,11 +13,8 @@ const Hero = (props) => (
         From 0 to ♾️, and Beyound
       </SectionTitle>
       <SectionText>
-       🔢 With Background in Mathematics  
-       🧠 Fast and Lifelong Learner <br /> 
-       💡 Probelm Solver 
-       👩‍💻 Hard Worker  
-       🌸 Nature Lover 
+       👩‍🏫 Transition from high school STEM teacher <br />
+       🔢 With Background in Mathematics and Computer Science  
       </SectionText>
       <a href="/resume/WinnieLi_Resume.pdf" download target='_blank'>
         <Button>
