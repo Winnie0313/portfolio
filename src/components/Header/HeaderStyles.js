@@ -11,7 +11,6 @@ export const Container = styled.div`
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding-left: 3rem;
-  padding-top: 2rem;
   font-size: 2rem;
   background-color: #dee2ff;
   position: sticky;
@@ -38,6 +37,8 @@ export const Div2 = styled.div`
 
 export const Li = styled.li`
   padding-left: 20px;
+  align-items: center;
+  display: flex;
 `
 
 export const DropDownContainer = styled.div`
@@ -46,34 +47,30 @@ export const DropDownContainer = styled.div`
     position: relative;
     float: none;
     display: block;
-    text-align: left
+    text-align: left;
+    top: auto
   }
 `
 export const DropDownContent = styled.div`
-position: absolute;
-display: block;
-background-color: #dee2ff;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
-
-
-}
-
+  position: absolute;
+  display: block;
+  background-color: #dee2ff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 
 `
 export const DropDownContentLink = styled.a`
-float: none;
-color: black;
-padding: 12px 16px;
-text-decoration: none;
-display: block;
-text-align: left;
-&:hover {
-  background-color: #F0F0F0;
+  float: none;
   color: black;
-  
-}
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  &:hover {
+    background-color: #F0F0F0;
+    color: black;
+  }
 
 `
 
@@ -170,8 +167,10 @@ export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: black;
 border-radius: 50px;
-  padding: 8px;
-  padding-top: 0;
+padding-bottom: 0px;
+align-items: center;
+display: flex;
+padding: 8px;
 &:hover {
     transform: scale(1.3);
     cursor: pointer;

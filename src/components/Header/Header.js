@@ -40,7 +40,7 @@ const Header = () =>  {
     <Container>
     <Div1>
       <Link href="/">
-        <NavLink style={{ display: "flex", alignItems: "center", marginBottom: "20px"}}>
+        <NavLink style={{ display: "flex", alignItems: "center"}}>
           <GiInfinity size="3rem" /> <span>WINNIE</span>
         </NavLink>
       </Link>
