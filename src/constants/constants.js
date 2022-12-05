@@ -21,7 +21,7 @@ export const projects = [
     title: 'Jungle E-commerce',
     description: "A mini e-commerce application built with Ruby and Rails 6.1 that allows users to shop plants and admin to manage products.",
     image: '/images/3.png',
-    tags: ['React', 'Next.js', 'Styled Components'],
+    tags: ['Ruby on Rails', 'Bootstrap', 'PostgreSQL'],
     live: 'https://google.com',
     github: 'https://github.com/Winnie0313/jungle-rails',
     id: 2,
