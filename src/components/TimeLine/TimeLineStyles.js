@@ -108,6 +108,7 @@ export const CarouselItemPosition = styled.p`
   font-weight: bold;
   margin-top: 10px;
   color: #696969;
+
 `
 export const CarouselItemText = styled.p`
   font-size: 14px;
