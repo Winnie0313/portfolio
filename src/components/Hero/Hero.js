@@ -15,8 +15,8 @@ const Hero = (props) => (
         </SectionTitle>
       </Intro>
       <SectionText>
-       🔢 With Background in Computer Science and Mathematics <br />
-       ✨ From 0 to ♾️, and Beyound!
+       👩‍🏫 Transition from high school STEM teacher <br />
+       🔢 With Background in Computer Science and Mathematics
       </SectionText>
       <a href="/resume/WinnieLi_Resume.pdf" download target='_blank'>
         <Button>

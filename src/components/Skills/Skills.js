@@ -20,7 +20,8 @@ const Skills = () =>  (
             Javascript <br />
             HTML <br />
             CSS <br />
-            jQuery
+            jQuery <br />
+            Ruby on Rails 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -29,10 +30,11 @@ const Skills = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
+            Java <br />
             Node.js <br />
             Express <br />
-            Databases <br />
-            Ruby on Rails 
+            SQL <br />
+            PostgreSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
