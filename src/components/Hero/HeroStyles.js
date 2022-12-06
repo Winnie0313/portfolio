@@ -16,3 +16,14 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const Intro = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
+export const Img = styled.img`
+
+`
+
+
