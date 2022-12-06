@@ -20,9 +20,25 @@ export const LeftSection = styled.div`
 export const Intro = styled.div`
   display: flex;
   flex-direction: row;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 `;
 
 export const Img = styled.img`
+  width:65%;
+  height:65%;
+  overflow: hidden;
+  padding-right: 3rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width:50%;
+    height:50%;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    width:50%;
+    height:50%;
+  }
+  
+
 
 `
 

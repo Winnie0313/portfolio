@@ -10,14 +10,13 @@ const Hero = (props) => (
       <Intro>
         <Img src="/images/profilePic.png"/>
         <SectionTitle main center>
-          Hi, I'm Winnie <br/> 
-          A Full-Stack Web Developer <br />
-          From 0 to ♾️, and Beyound
+          Hi, I'm Winnie, <br/> 
+          A Full-Stack Web Developer.
         </SectionTitle>
       </Intro>
       <SectionText>
        👩‍🏫 Transition from high school STEM teacher <br />
-       🔢 With Background in Mathematics and Computer Science  
+       🔢 With Background in Computer Science and Mathematics 
       </SectionText>
       <a href="/resume/WinnieLi_Resume.pdf" download target='_blank'>
         <Button>
