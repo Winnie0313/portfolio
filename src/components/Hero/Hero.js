@@ -5,7 +5,7 @@ import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection, Img, Intro } from './HeroStyles';
 
 const Hero = (props) => (
-  <Section row nopadding>
+  <Section row nopadding id="home">
     <LeftSection>
       <Intro>
         <Img src="/images/profilePic.png"/>
