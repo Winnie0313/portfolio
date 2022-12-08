@@ -16,7 +16,7 @@ const Contact = () => (
       </LinkColumn>
       <LinkColumn>
         <AiFillPhone size="4rem" />
-        <LinkItem href='tel:236-965-8957'>236-965-8957 (Vancouver)</LinkItem>
+        <LinkItem href='tel:236-965-8957'>236-965-8957 (Vancouver, CA)</LinkItem>
       </LinkColumn>
     </LinkList>
   </Section>
